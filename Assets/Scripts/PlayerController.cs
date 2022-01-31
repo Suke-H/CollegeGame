@@ -23,9 +23,6 @@ public class PlayerController : MonoBehaviour
         x_lim = TopRight.x;
         y_lim = TopRight.y;
 
-        Debug.Log(x_lim);
-        Debug.Log(y_lim);
-
     }
 
     void Start()
