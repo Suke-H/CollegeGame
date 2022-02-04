@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
     Rigidbody2D rigid;
-    float max_x_Speed = 6.0f;
-    float max_y_Speed = 6.0f;
+    [SerializeField] private float max_x_Speed = 3.0f;
+    [SerializeField] private float max_y_Speed = 3.0f;
     // float moveForce = 90.0f;
     Vector3 rightVec;
     Vector3 upVec;
