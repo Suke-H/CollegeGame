@@ -314,9 +314,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.08}
+  m_Offset: {x: 0, y: 0.18}
   serializedVersion: 2
-  m_Radius: 0.9
+  m_Radius: 0.7
 --- !u!50 &312092628
 Rigidbody2D:
   serializedVersion: 4
@@ -1107,9 +1107,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab_1: {fileID: 1463612158925203035, guid: 1cc522ddf2c1cd940a94ed5de329d1b7, type: 3}
-  enemyPrefab_2: {fileID: 7159310144467768255, guid: d371b449d79170f48a626a6f8511d408, type: 3}
   span_1: 4
+  enemyPrefab_2: {fileID: 7159310144467768255, guid: d371b449d79170f48a626a6f8511d408, type: 3}
   span_2: 2
+  enemyPrefab_3: {fileID: 8755559320905274621, guid: e2e555ec00782854f9b2acfb02babf28, type: 3}
+  span_3: 2
+  enemyPrefab_4: {fileID: 643551122177654703, guid: d9bc381b6ba118c409ef50c6361cb1cb, type: 3}
+  span_4: 8
 --- !u!4 &1838980787
 Transform:
   m_ObjectHideFlags: 0
